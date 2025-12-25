@@ -33,10 +33,31 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "#F8FAFC",
           "dark": {
-            "backgroundColor": "#000000"
+            "backgroundColor": "#0F172A"
           }
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow aidit to access your camera to capture photos for AI editing"
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow aidit to access your photos for AI editing",
+          "savePhotosPermission": "Allow aidit to save edited photos to your gallery",
+          "isAccessMediaLocationEnabled": true,
+          "isAudioEnabled": false
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow aidit to access your photos for AI editing"
         }
       ]
     ],
